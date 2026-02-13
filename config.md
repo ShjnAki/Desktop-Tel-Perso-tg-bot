@@ -1,9 +1,4 @@
- ##   #   #   #   ##
-## Marche à Suivre ##
- ##   #   #   #   ##
-
-#   Ce n'est à faire qu'une seule fois ces manips, une fois configuré, tu n'as plus besoin de relancer le script pour utiliser le bot.
-
+## Marche à Suivre 
 #   Extraire le .rar dans un dossier
 Lance @Godfather sur Telegram 
 Run /newbot pour créer un bot et suis ce qu'il te dit.
@@ -38,13 +33,13 @@ Bot démarré...
 Modifie alors la ligne "let ChatId = null;" (l.9) en remplacant null par le nombre donné.
 #   Ce faisant, tu relies directement ton bot à ton identifiant tg, ca rajoute de la sécurité.
 
- ##   #   #   #    ##
-## Erreur possible ##
- ##   #   #   #   ##
-error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 404 Not Found"}
-#   Cette erreur se lance si tu n'as pas ajouté l'API 
+## Erreur possible 
+
+> error: [polling_error] {"code":"ETELEGRAM","message":"ETELEGRAM: 404 Not Found"}
+Cette erreur se lance si tu n'as pas ajouté l'API dans const token="";
 Fais ctrl + c pour arrêter le bot.
 
+#   Une fois configuré, tu n'as plus besoin de relancer le script pour utiliser le bot.
 ##  Je ferai la traduction en anglais plus tard.
 ##  Il s'agit de l'installation sous windows, les commandes peuvent varier suivant l'os.
 
