@@ -11,8 +11,7 @@ Et installe les autres dépendances nécessaires
 (chocolatey/python/npm..) en cochant la dernière case.
 
 ###   Verifie que tout est bien installé dans ton cmd: 
-`node -v`
-`npm -v`
+`node -v & npm -v`
 ###   Ca va t'afficher les versions que tu as:
 "v24.13.1"
 "11.10.0"
